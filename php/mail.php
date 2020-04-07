@@ -7,7 +7,7 @@
      $spamInput = htmlspecialchars($_POST['spamInput']);
 
      if(empty($spamInput)){
-        $to = "mywebdev@kseniamv-frontdev.ru";
+        $to = "some-mail@mail.ru";
         $subject = "Письмо с обратной связи";
         $headers = "MIME-Version: 1.0\r\n";
         $headers .= "Content-type: text/html; charset=utf-8\r\n";
